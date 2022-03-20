@@ -22,7 +22,7 @@ export async function createCake(req, res) {
 
     await connection.query(
       `
-        INSERTO INTO cakes (name, price, description, image,,flavour)
+        INSERT INTO cakes (name, price, description, image,,flavour)
         values ($1, $2, $3, $4, $5)
         `,
       [name, price, description, image, flavourId]

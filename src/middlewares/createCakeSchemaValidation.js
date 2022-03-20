@@ -1,4 +1,4 @@
-import cakeCreationSchema from "../schemas/createCakeSchema.js";
+import createCakeSchema from "../schemas/createCakeSchema.js";
 
 export function createCakeSchemaValidation(req, res, next) {
   const validation = createCakeSchema.validate(req.body);
