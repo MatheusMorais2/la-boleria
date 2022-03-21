@@ -1,4 +1,5 @@
 import { Router } from "express";
+import { createCake } from "../controllers/cakesController.js";
 
 import { createCakeSchemaValidation } from "../middlewares/createCakeSchemaValidation.js";
 
